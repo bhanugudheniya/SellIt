@@ -19,24 +19,24 @@ export class Dashboard extends Component {
             <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('PhoneModel')}>
               <View style={styles.iconTextAlign}>
                 {/* <FontAwesomeIcon icon={faCalendarAlt} style={styles.ficon} size={40} /> */}
-                <Image source={require('../assets/image/apple.png')} style={styles.CardImage}/>
-                <Text style={styles.textStyles}>Apple</Text>
+                <Image source={require('../assets/image/apple7.png')} style={styles.CardImage}/>
+                <Text style={styles.textStyles}>Apple 7</Text>
               </View>
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('Fees')}>
               <View style={styles.iconTextAlign}>
                 {/* <FontAwesomeIcon icon={faMoneyCheck} style={styles.ficon} size={40} /> */}
-                <Image source={require('../assets/image/samsung.png')} style={styles.CardImage}/>
-                <Text style={styles.textStyles}>Samsung</Text>
+                <Image source={require('../assets/image/apple8.png')} style={styles.CardImage}/>
+                <Text style={styles.textStyles}>Apple 8 </Text>
               </View>
             </TouchableOpacity>
 
             <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Notice')}>
               <View style={styles.iconTextAlign} >
                 {/* <FontAwesomeIcon icon={faChalkboard} style={styles.ficon} size={40} /> */}
-                <Image source={require('../assets/image/mi.png')} style={styles.CardImage}/>
-                <Text style={styles.textStyles}>Xiaomi</Text>
+                <Image source={require('../assets/image/apple7.png')} style={styles.CardImage}/>
+                <Text style={styles.textStyles}>Apple 6</Text>
               </View>
             </TouchableOpacity>
 
@@ -66,35 +66,8 @@ export class Dashboard extends Component {
                 <Text style={styles.textStyles}>Lenovo</Text>
               </View>
             </TouchableOpacity>
-
-            {/* Row 3 */}
           </View>
-          <View style={{flexDirection: 'row'}}>
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Placements')}>
-            <View style={styles.iconTextAlign}>
-            {/* <FontAwesomeIcon icon={faBriefcase} style={styles.ficon} size={40} /> */}
-            <Image source={require('../assets/image/one.png')} style={styles.CardImage}/>
-              <Text style={styles.textStyles}>One Plus</Text>
-            </View>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('UniversityResults')}>
-            <View style={styles.iconTextAlign}>
-            {/* <FontAwesomeIcon icon={faUniversity} style={styles.ficon} size={40} /> */}
-            <Image source={require('../assets/image/oppo.png')} style={styles.CardImage}/>
-              <Text style={styles.textStyles}>Oppo</Text>
-            </View>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('UniversityResults')}>
-            <View style={styles.iconTextAlign}>
-            {/* <FontAwesomeIcon icon={faUniversity} style={styles.ficon} size={40} /> */}
-            <Image source={require('../assets/image/vivo.png')} style={styles.CardImage}/>
-              <Text style={styles.textStyles}>Vivo</Text>
-            </View>
-            </TouchableOpacity>
-
-          </View>
+         
 
         </ScrollView>
         </View>
@@ -124,6 +97,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 10,
     shadowColor: "red",
+    marginBottom:10,
 
     // shadowRadius:5,
     // elevation:0.5,

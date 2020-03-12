@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, StyleSheet, Image } from 'react-native'
+import { Text, View, StyleSheet, Image, } from 'react-native'
 import { DrawerActions } from '@react-navigation/native';
 // import Icon from 'react-native-vector-icons/Ionicons';
 import { TouchableOpacity } from 'react-native-gesture-handler';
@@ -25,8 +25,8 @@ export class HeaderComponent extends Component {
 
 
                             <View style={styles.lines}></View>
-            <View style={styles.lines}></View>
-            <View style={styles.lines}></View>
+                            <View style={styles.lines}></View>
+                            <View style={styles.lines}></View>
                         </TouchableOpacity>
                     </View>
 
@@ -76,14 +76,16 @@ const styles = StyleSheet.create({
     },
     lines: {
         borderColor: "#000",
-        borderWidth: 2,
-        width: "80%",
+        borderWidth: 1.5,
+        width: "55%",
         marginLeft: "10%",
-        marginVertical: 6
+        marginVertical: 3,
+        borderColor:'#FFFFFF',
     },
     hamburgerIcon: {
         flex: 0.5,
         // backgroundColor:'red'
+        marginTop:10,
     },
     title: {
         flex: 2,
