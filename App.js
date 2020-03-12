@@ -40,7 +40,7 @@ import HeaderComponent from './components/HeaderComponent';
 import Dashboard from "./components/Dashboard";
 import Work from "./components/Work";
 import About from "./components/About";
-import Network from "./components/Network";
+// import Network from "./components/Network";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import PhoneModel from "./components/PhoneModel";
@@ -80,7 +80,7 @@ function DashboardDrawer(){
       <Drawer.Screen name="Dashboard" component={Dashboard} />
       <Drawer.Screen name="How It Works" component={Work} />
       <Drawer.Screen name="About Us" component={About} />
-      <Drawer.Screen name="Our Network" component={Network} />
+      {/* <Drawer.Screen name="Our Network" component={Network} /> */}
       <Drawer.Screen name="FAQ" component={FAQ} />
       <Drawer.Screen name="Contact Us" component={Contact} />
       <Drawer.Screen name="Phone Model" component={PhoneModel} />

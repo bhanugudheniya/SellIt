@@ -83,7 +83,9 @@ const styles = StyleSheet.create({
         borderColor:'#FFFFFF',
     },
     hamburgerIcon: {
+        // Color:"white",
         flex: 0.5,
+        
         // backgroundColor:'red'
         marginTop:10,
     },
