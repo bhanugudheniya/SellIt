@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         width: '100%',
         height: 50,
-        backgroundColor: '#554276',
+        backgroundColor: '#1e699d',
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
@@ -82,7 +82,9 @@ const styles = StyleSheet.create({
         marginVertical: 6
     },
     hamburgerIcon: {
+        // Color:"white",
         flex: 0.5,
+        
         // backgroundColor:'red'
     },
     title: {
