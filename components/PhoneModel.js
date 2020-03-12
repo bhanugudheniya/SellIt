@@ -96,34 +96,6 @@ export class Dashboard extends Component {
 
           </View>
 
-
-          {/* Row 4 */}
-          <View style={{ flexDirection: 'row' }}>
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('BusSchedule')}>
-              <View style={styles.iconTextAlign}>
-                {/* <FontAwesomeIcon icon={faBusAlt} style={styles.ficon} size={40} /> */}
-                <Image source={require('../assets/image/sony.png')} style={styles.CardImage}/>
-                <Text style={styles.textStyles}>Sony</Text> 
-              </View>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Classteacher')}>
-              <View style={styles.iconTextAlign}>
-                {/* <FontAwesomeIcon icon={faChalkboardTeacher} style={styles.ficon} size={40} /> */}
-                <Image source={require('../assets/image/asus.png')} style={styles.CardImage}/>
-                <Text style={styles.textStyles}>Asus</Text>
-              </View>
-            </TouchableOpacity>
-
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Internaltest')}>
-              <View style={styles.iconTextAlign} >
-                {/* <FontAwesomeIcon icon={faFileAlt} style={styles.ficon} size={40} /> */}
-                <Image source={require('../assets/image/honor.png')} style={styles.CardImage}/>
-                <Text style={styles.textStyles}>Honor</Text>
-              </View>
-            </TouchableOpacity>
-          </View>
-
         </ScrollView>
         </View>
           </>        
