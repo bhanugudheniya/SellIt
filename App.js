@@ -43,6 +43,8 @@ import About from "./components/About";
 // import Network from "./components/Network";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
+import PhoneModel from "./components/PhoneModel";
+import { ScreenStack } from 'react-native-screens';
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
@@ -64,8 +66,7 @@ function userDashboardDrawer() {
     
     <Stack.Navigator initialRouteName="Dashboard" headerMode="none">
       <Stack.Screen name="Dashboard" component={Dashboard}  />
-      <Stack.Screen name="UniversityResults" component={UniversityResults} />
-      <Stack.Screen name="UniversityResults" component={UniversityResults} />
+      <Stack.Screen name="Phone Model" component={PhoneModel} />
       {/* <Stack.Screen name="How It Works" component={Work} />
       <Stack.Screen name="About Us" component={About} /> */}
    
@@ -82,6 +83,7 @@ function DashboardDrawer(){
       {/* <Drawer.Screen name="Our Network" component={Network} /> */}
       <Drawer.Screen name="FAQ" component={FAQ} />
       <Drawer.Screen name="Contact Us" component={Contact} />
+      <Drawer.Screen name="Phone Model" component={PhoneModel} />
 
 
     </Drawer.Navigator>
