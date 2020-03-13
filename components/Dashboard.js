@@ -24,7 +24,7 @@ export class Dashboard extends Component {
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('Fees')}>
+            <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('PhoneModel')}>
               <View style={styles.iconTextAlign}>
                 {/* <FontAwesomeIcon icon={faMoneyCheck} style={styles.ficon} size={40} /> */}
                 <Image source={require('../assets/image/samsung.png')} style={styles.CardImage}/>
@@ -32,7 +32,7 @@ export class Dashboard extends Component {
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Notice')}>
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('PhoneModel')}>
               <View style={styles.iconTextAlign} >
                 {/* <FontAwesomeIcon icon={faChalkboard} style={styles.ficon} size={40} /> */}
                 <Image source={require('../assets/image/mi.png')} style={styles.CardImage}/>
@@ -43,7 +43,7 @@ export class Dashboard extends Component {
             {/* Row 2 */}
           </View>
           <View style={{ flexDirection: 'row' }}>
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('BusSchedule')}>
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('PhoneModel')}>
               <View style={styles.iconTextAlign}>
                 {/* <FontAwesomeIcon icon={faBusAlt} style={styles.ficon} size={40} /> */}
                 <Image source={require('../assets/image/moto.png')} style={styles.CardImage}/>
@@ -51,7 +51,7 @@ export class Dashboard extends Component {
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Classteacher')}>
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('PhoneModel')}>
               <View style={styles.iconTextAlign}>
                 {/* <FontAwesomeIcon icon={faChalkboardTeacher} style={styles.ficon} size={40} /> */}
                 <Image source={require('../assets/image/google.png')} style={styles.CardImage}/>
@@ -59,7 +59,7 @@ export class Dashboard extends Component {
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Internaltest')}>
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('PhoneModel')}>
               <View style={styles.iconTextAlign} >
                 {/* <FontAwesomeIcon icon={faFileAlt} style={styles.ficon} size={40} /> */}
                 <Image source={require('../assets/image/lenovo.png')} style={styles.CardImage}/>
@@ -70,7 +70,7 @@ export class Dashboard extends Component {
             {/* Row 3 */}
           </View>
           <View style={{flexDirection: 'row'}}>
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Placements')}>
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('PhoneModel')}>
             <View style={styles.iconTextAlign}>
             {/* <FontAwesomeIcon icon={faBriefcase} style={styles.ficon} size={40} /> */}
             <Image source={require('../assets/image/one.png')} style={styles.CardImage}/>
@@ -78,7 +78,7 @@ export class Dashboard extends Component {
             </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('UniversityResults')}>
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('PhoneModel')}>
             <View style={styles.iconTextAlign}>
             {/* <FontAwesomeIcon icon={faUniversity} style={styles.ficon} size={40} /> */}
             <Image source={require('../assets/image/oppo.png')} style={styles.CardImage}/>
@@ -86,7 +86,7 @@ export class Dashboard extends Component {
             </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('UniversityResults')}>
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('PhoneModel')}>
             <View style={styles.iconTextAlign}>
             {/* <FontAwesomeIcon icon={faUniversity} style={styles.ficon} size={40} /> */}
             <Image source={require('../assets/image/vivo.png')} style={styles.CardImage}/>
@@ -99,7 +99,7 @@ export class Dashboard extends Component {
 
           {/* Row 4 */}
           <View style={{ flexDirection: 'row' }}>
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('BusSchedule')}>
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('PhoneModel')}>
               <View style={styles.iconTextAlign}>
                 {/* <FontAwesomeIcon icon={faBusAlt} style={styles.ficon} size={40} /> */}
                 <Image source={require('../assets/image/sony.png')} style={styles.CardImage}/>
@@ -107,7 +107,7 @@ export class Dashboard extends Component {
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Classteacher')}>
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('PhoneModel')}>
               <View style={styles.iconTextAlign}>
                 {/* <FontAwesomeIcon icon={faChalkboardTeacher} style={styles.ficon} size={40} /> */}
                 <Image source={require('../assets/image/asus.png')} style={styles.CardImage}/>
@@ -115,7 +115,7 @@ export class Dashboard extends Component {
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Internaltest')}>
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('PhoneModel')}>
               <View style={styles.iconTextAlign} >
                 {/* <FontAwesomeIcon icon={faFileAlt} style={styles.ficon} size={40} /> */}
                 <Image source={require('../assets/image/honor.png')} style={styles.CardImage}/>

@@ -13,7 +13,8 @@ export class FAQ extends Component {
 
             <View style={styles.container}>
                 <Text style={styles.inside1}>What do you mean by Sell It ?</Text>
-                <Text style={styles.inside}>Sell It is a simple online electronics sale platform through which you can sell your old / used Mobile Phone, Smartphone, Tablet, Apple iPhone and Apple iPad etc. at best resale assured value. Currently we are accepting orders for above devices however many more electronic devices will be added to our catalogue in coming days.</Text>
+                <Text style={styles.inside}>Sell It is a simple online electronics sale platform through which you can sell your old / used Mobile Phone, Smartphone, Tablet, Apple iPhone and Apple iPad etc.
+                 at best resale assured value. Currently we are accepting orders for above devices however many more electronic devices will be added to our catalogue in coming days.</Text>
                         </View>
  
                         <View style={styles.container1}>
@@ -66,8 +67,11 @@ You will have the option to accept or decline the new offer.</Text>
 const styles = StyleSheet.create({
     inside:{
         // textAlign:"center",
-        color:"grey",
+        color:"black",
         justifyContent:"space-around",
+        marginLeft: 10,
+        marginRight: 10,
+        
     
     },
     inside1:{
@@ -75,6 +79,11 @@ const styles = StyleSheet.create({
         color:"black",
         justifyContent:"space-around",
         textDecorationLine:"underline",
+        color:'#1e699d',
+        marginLeft: 10,
+        marginRight: 10,
+        fontSize: 18,
+        
     
     },
     container:{
@@ -86,6 +95,8 @@ const styles = StyleSheet.create({
         borderRadius:10,
         backgroundColor: "#ffffff",
         justifyContent:"space-around",
+       
+       
     
     },
     container1:{
@@ -97,6 +108,7 @@ const styles = StyleSheet.create({
         borderRadius:10,
         backgroundColor: "#ffffff",
         justifyContent:"space-around",
+       
     },
     container2:{
         marginTop:20,

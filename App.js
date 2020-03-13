@@ -66,7 +66,7 @@ function userDashboardDrawer() {
     
     <Stack.Navigator initialRouteName="Dashboard" headerMode="none">
       <Stack.Screen name="Dashboard" component={Dashboard}  />
-      <Stack.Screen name="Phone Model" component={PhoneModel} />
+      <Stack.Screen name="PhoneModel" component={PhoneModel} />
       {/* <Stack.Screen name="How It Works" component={Work} />
       <Stack.Screen name="About Us" component={About} /> */}
    
@@ -77,7 +77,7 @@ function userDashboardDrawer() {
 function DashboardDrawer(){
   return(
     <Drawer.Navigator initialRouteName="Dashboard">
-      <Drawer.Screen name="Dashboard" component={Dashboard} />
+      <Drawer.Screen name="Dashboard" component={userDashboardDrawer} />
       <Drawer.Screen name="How It Works" component={Work} />
       <Drawer.Screen name="About Us" component={About} />
       {/* <Drawer.Screen name="Our Network" component={Network} /> */}

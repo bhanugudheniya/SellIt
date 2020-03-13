@@ -38,13 +38,13 @@ image:{
 },
 inside:{
     textAlign:"center",
-    color:"white",
+    color:"black",
     justifyContent:"space-around",
 
 },
 inside1:{
     textAlign:"center",
-    color:"black",
+    color:"#1e699d",
     justifyContent:"space-around",
 
 },
@@ -54,7 +54,7 @@ container:{
     width: 300,
     alignSelf:"center",
     borderRadius:10,
-    backgroundColor: "#1e699d",
+    backgroundColor: "white",
     justifyContent:"space-around",
 
 },

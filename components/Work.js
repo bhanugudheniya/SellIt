@@ -66,17 +66,20 @@ textAlign:"center",
 marginTop:10,
 fontSize: 20,
 marginBottom:20,
+color:"#1e699d",
 },
 inside:{
     textAlign:"center",
-    color:"white",
+    color:"black",
     justifyContent:"space-around",
+    
 
 },
 inside1:{
     textAlign:"center",
-    color:"black",
+    color:"#1e699d",
     justifyContent:"space-around",
+    fontSize:16,
 
 },
 container:{
@@ -85,7 +88,7 @@ container:{
     width: 300,
     alignSelf:"center",
     borderRadius:10,
-    backgroundColor: "#1e699d",
+    backgroundColor: "white",
     justifyContent:"space-around",
 
 },
