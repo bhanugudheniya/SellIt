@@ -25,16 +25,10 @@ export class Contact extends Component {
                 Faridabad - 121001,
                
                 Haryana, India</Text>
-
-                    </View>
+                   </View>
                     <View>
                     <Text style={styles.enquiry}>Submit Enquiry</Text>
-
-
                     </View>
-
-                    
-               
                     <View style={styles.container}>
                         {/* <Text style={styles.loginText}>Register</Text> */}
 

@@ -39,35 +39,60 @@ export class PhoneModel extends Component {
                 <Text style={styles.textStyles}>Apple 6</Text>
               </View>
             </TouchableOpacity>
-
-            {/* Row 2 */}
           </View>
           <View style={{ flexDirection: 'row' }}>
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('BusSchedule')}>
+
+            <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('PhoneModel')}>
               <View style={styles.iconTextAlign}>
-                {/* <FontAwesomeIcon icon={faBusAlt} style={styles.ficon} size={40} /> */}
-                <Image source={require('../assets/image/moto.png')} style={styles.CardImage}/>
-                <Text style={styles.textStyles}>Motorola</Text> 
+                {/* <FontAwesomeIcon icon={faCalendarAlt} style={styles.ficon} size={40} /> */}
+                <Image source={require('../assets/image/apple8.png')} style={styles.CardImage}/>
+                <Text style={styles.textStyles}>Apple 7</Text>
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Classteacher')}>
+            <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('Fees')}>
               <View style={styles.iconTextAlign}>
-                {/* <FontAwesomeIcon icon={faChalkboardTeacher} style={styles.ficon} size={40} /> */}
-                <Image source={require('../assets/image/google.png')} style={styles.CardImage}/>
-                <Text style={styles.textStyles}>Google</Text>
+                {/* <FontAwesomeIcon icon={faMoneyCheck} style={styles.ficon} size={40} /> */}
+                <Image source={require('../assets/image/apple7.png')} style={styles.CardImage}/>
+                <Text style={styles.textStyles}>Apple 8 </Text>
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Internaltest')}>
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Notice')}>
               <View style={styles.iconTextAlign} >
-                {/* <FontAwesomeIcon icon={faFileAlt} style={styles.ficon} size={40} /> */}
-                <Image source={require('../assets/image/lenovo.png')} style={styles.CardImage}/>
-                <Text style={styles.textStyles}>Lenovo</Text>
+                {/* <FontAwesomeIcon icon={faChalkboard} style={styles.ficon} size={40} /> */}
+                <Image source={require('../assets/image/apple8.png')} style={styles.CardImage}/>
+                <Text style={styles.textStyles}>Apple 6</Text>
               </View>
             </TouchableOpacity>
           </View>
-         
+          <View style={{ flexDirection: 'row' }}>
+
+            <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('PhoneModel')}>
+              <View style={styles.iconTextAlign}>
+                {/* <FontAwesomeIcon icon={faCalendarAlt} style={styles.ficon} size={40} /> */}
+                <Image source={require('../assets/image/apple7.png')} style={styles.CardImage}/>
+                <Text style={styles.textStyles}>Apple 7</Text>
+              </View>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('Fees')}>
+              <View style={styles.iconTextAlign}>
+                {/* <FontAwesomeIcon icon={faMoneyCheck} style={styles.ficon} size={40} /> */}
+                <Image source={require('../assets/image/apple8.png')} style={styles.CardImage}/>
+                <Text style={styles.textStyles}>Apple 8 </Text>
+              </View>
+            </TouchableOpacity>
+
+            <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Notice')}>
+              <View style={styles.iconTextAlign} >
+                {/* <FontAwesomeIcon icon={faChalkboard} style={styles.ficon} size={40} /> */}
+                <Image source={require('../assets/image/apple7.png')} style={styles.CardImage}/>
+                <Text style={styles.textStyles}>Apple 6</Text>
+              </View>
+            </TouchableOpacity>
+          </View>
+          
 
         </ScrollView>
         </View>
