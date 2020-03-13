@@ -17,7 +17,6 @@ import {
   FlatList,
 } from 'react-native';
 
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -49,7 +48,6 @@ import { ScreenStack } from 'react-native-screens';
 
 const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
-const Tab = createBottomTabNavigator();
 
 const MyTheme = {
   dark: false,

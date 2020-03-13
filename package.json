@@ -12,13 +12,11 @@
   "dependencies": {
     "@fortawesome/react-native-fontawesome": "^0.2.3",
     "@react-native-community/masked-view": "^0.1.7",
-    "@react-navigation/bottom-tabs": "^5.1.1",
     "@react-navigation/drawer": "^5.1.1",
     "@react-navigation/native": "^5.0.9",
     "@react-navigation/stack": "^5.1.1",
     "react": "16.9.0",
     "react-native": "0.61.5",
-    "react-native-bottom-navigation": "^0.7.6",
     "react-native-gesture-handler": "^1.6.0",
     "react-native-material-dropdown": "^0.11.1",
     "react-native-reanimated": "^1.7.0",
