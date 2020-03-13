@@ -9,14 +9,14 @@ export class PhoneModel extends Component {
     render() {
         return (
             <>
-            <HeaderComponent name="Dashboard" rootProps={this.props} />
+            <HeaderComponent name="Select Model" rootProps={this.props} />
             <View style={styles.MainBoard}>
             <ScrollView style={{ display: 'flex', flexDirection: 'column' }}>
 
               {/* Row 1 */}
           <View style={{ flexDirection: 'row' }}>
 
-            <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('PhoneModel')}>
+            <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('Device')}>
               <View style={styles.iconTextAlign}>
                 {/* <FontAwesomeIcon icon={faCalendarAlt} style={styles.ficon} size={40} /> */}
                 <Image source={require('../assets/image/apple7.png')} style={styles.CardImage}/>
