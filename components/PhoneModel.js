@@ -5,18 +5,18 @@ import { Text, View, StyleSheet, ScrollView, TouchableOpacity, Image } from 'rea
 // import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import HeaderComponent from './HeaderComponent';
 
-export class Dashboard extends Component {
+export class PhoneModel extends Component {
     render() {
         return (
             <>
-            <HeaderComponent name="Dashboard" rootProps={this.props} />
+            <HeaderComponent name="Select Model" rootProps={this.props} />
             <View style={styles.MainBoard}>
             <ScrollView style={{ display: 'flex', flexDirection: 'column' }}>
 
               {/* Row 1 */}
           <View style={{ flexDirection: 'row' }}>
 
-            <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('PhoneModel')}>
+            <TouchableOpacity style={styles.Card} onPress={()=>this.props.navigation.navigate('Device')}>
               <View style={styles.iconTextAlign}>
                 {/* <FontAwesomeIcon icon={faCalendarAlt} style={styles.ficon} size={40} /> */}
                 <Image source={require('../assets/image/apple7.png')} style={styles.CardImage}/>
@@ -130,4 +130,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default Dashboard
+export default PhoneModel

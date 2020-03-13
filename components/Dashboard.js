@@ -39,9 +39,9 @@ export class Dashboard extends Component {
                 <Text style={styles.textStyles}>Xiaomi</Text>
               </View>
             </TouchableOpacity>
-
+            </View>
             {/* Row 2 */}
-          </View>
+         
           <View style={{ flexDirection: 'row' }}>
             <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('BusSchedule')}>
               <View style={styles.iconTextAlign}>
@@ -66,9 +66,10 @@ export class Dashboard extends Component {
                 <Text style={styles.textStyles}>Lenovo</Text>
               </View>
             </TouchableOpacity>
-
+            </View>
             {/* Row 3 */}
-          </View>
+          
+
           <View style={{flexDirection: 'row'}}>
             <TouchableOpacity style={styles.Card} onPress={() => this.props.navigation.navigate('Placements')}>
             <View style={styles.iconTextAlign}>
