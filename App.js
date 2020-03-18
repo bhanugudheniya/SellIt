@@ -44,6 +44,7 @@ import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
 import PhoneModel from "./components/PhoneModel";
 import Device from "./components/Device";
+import HomePage from "./components/HomePage";
 import { ScreenStack } from 'react-native-screens';
 
 const Drawer = createDrawerNavigator();
@@ -64,6 +65,7 @@ function userDashboardDrawer() {
   return (
     
     <Stack.Navigator initialRouteName="Dashboard" headerMode="none">
+      {/* <Stack.Screen name="HomePage  " component={HomePage}  /> */}
       <Stack.Screen name="Dashboard" component={Dashboard}  />
       <Stack.Screen name="PhoneModel" component={PhoneModel} />
       <Stack.Screen name="Device" component={Device} />
@@ -86,6 +88,7 @@ function DashboardDrawer(){
       <Drawer.Screen name="Contact Us" component={Contact} />
       <Drawer.Screen name="Phone Model" component={PhoneModel} />
       <Drawer.Screen name="Device" component={Device} />
+      <Drawer.Screen name="HomePage" component={HomePage} />
 
     </Drawer.Navigator>
   )
@@ -95,7 +98,8 @@ const App: () => React$Node = () => {
   return (
     <>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="Dashboard" headerMode = "none">
+        <Stack.Navigator initialRouteName="HomePage" headerMode = "none">
+          <Stack.Screen name = "HomePage" component ={HomePage}/>
           <Stack.Screen name = "Dashboard" component ={DashboardDrawer}/>
         </Stack.Navigator>
       </NavigationContainer>
